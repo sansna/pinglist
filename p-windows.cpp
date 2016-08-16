@@ -18,8 +18,8 @@ int main()
     }
     for (int j = 0 ; j <= i ;j ++ )
     {
-        char pp[30]="start ping ";
-        strcpy(&(pp[11]),a[j]);
+        char pp[40]="start ping -t ";
+        strcpy(&(pp[14]),a[j]);
         system((const char*)pp);
     }
     return 0;
