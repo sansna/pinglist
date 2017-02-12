@@ -6,10 +6,14 @@ format should be:
 note the last q is used to mark the end of the output. \t is the tab as you know.
 Compile
 -
-    g++ p.cpp -o pinglist
+    On windows: 
+	g++ p-windows.cpp -o pinglist.exe
+    On Linux:
+	g++ p.cpp -o pinglist
 Run
 -
     pinglist
+	input data format:re!(\d+:\d+:\d+:\d+ )+q
 
 
 Enjoy!!

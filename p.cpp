@@ -10,7 +10,7 @@ int main()
     int i = 0;
     while(1)
     {
-        scanf("\t%[^\t\r\n]",c);
+        scanf(" %[^\t\r\n ]",c);
         if(!strcmp(c,"q"))
             break;
         strcpy(a[i],c);
