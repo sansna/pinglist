@@ -1,19 +1,22 @@
 PINGLIST
 ==
-As being said in the title, this little snippet is used to ping several ip automatically,
-format should be:
-    \tIP\tIP\tIP\tq
-note the last q is used to mark the end of the output. \t is the tab as you know.
+As being said in the title, this snippet is used to ping several ip automatically.
+
+Note the last q is used to mark the end of the output.
 Compile
 -
-    On windows: 
-	g++ p-windows.cpp -o pinglist.exe
-    On Linux:
-	g++ p.cpp -o pinglist
+On windows: 
+
+    g++ p-windows.cpp -o pinglist.exe
+
+On Linux:
+
+    g++ p.cpp -o pinglist
 Run
 -
     pinglist
-	input data format:re!(\d+:\d+:\d+:\d+ )+q
+
+input data format:re!(\d+:\d+:\d+:\d+ )+q
 
 
 Enjoy!!
